@@ -1,7 +1,7 @@
 {
   "name": "quotes",
   "description": "A continues stream of qoutes for each day.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "scripts": {
     "test": "tap test/simple/*"
