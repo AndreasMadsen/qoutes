@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "scripts": {
-    "test": "tap test/*"
+    "test": "tap test/simple/*"
   },
   "main": "./lib/quotes.js",
   "repository" : {
@@ -19,11 +19,12 @@
     "newlinepoint": "0.2.x",
     "reversepoint": "0.2.x",
     "slicepoint": "0.2.x",
-    "request": "2.16.x",
     "rfc-csv": "0.2.x"
   },
   "devDependencies": {
     "tap": "0.4.x",
+    "async": "0.2.x",
+    "mockney": "0.2.x",
     "inspectpoint": "0.2.x"
   },
   "license": "MIT",
